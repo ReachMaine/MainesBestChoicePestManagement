@@ -18,12 +18,17 @@ Version: 1.2
 
 }
 /*  header stuff - here */
+.header-controls-right {
+	display: none; // no menu at this point.
+}
 
-/*** styling of content */
 /*** styling of content */
 #content.right-sidebar-page {
 	padding-top: 45px;  // small at mobile in media
 	padding-bottom: 45px;
+}
+body.single-page-version .single-page-nav-wrap  {
+	display: none;  // hide the little circle on single page sites.
 }
 /** sidebar
 
@@ -39,6 +44,10 @@ Version: 1.2
 	}
 }
 // footer
+#bottom-widgets {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
 // very bottom
 #footer {
     a.reach-logo {
