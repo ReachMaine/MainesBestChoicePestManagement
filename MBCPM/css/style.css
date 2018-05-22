@@ -157,7 +157,14 @@ body.single-page-version .single-page-nav-wrap {
   #header #header-controls-right .mobile-nav-controller {
     padding-top: 15px; } }
 @media only screen and (max-width: 767px) {
+  #header-wrap .logo {
+    max-width: 75%;
+    margin-right: 0px; }
+
   #hero-section .hero-section-wrap.be-bg-cover {
+    height: 250px !important; }
+
+  body.home #hero-section .hero-section-wrap.be-bg-cover {
     height: 550px !important; }
 
   #content.right-sidebar-page {
@@ -170,6 +177,3 @@ body.single-page-version .single-page-nav-wrap {
   #right-sidebar, #left-sidebar {
     margin-top: 0px;
     margin-bottom: 0px; } }
-@media only screen and (max-width: 767px) {
-  #header-wrap .logo {
-    max-width: 90%; } }

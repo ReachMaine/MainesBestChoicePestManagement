@@ -28,9 +28,18 @@
 }
 @media only screen and (max-width: 767px) { // mobile - mobile menu shows here.
 	// hide-mobile available from tatsu
+    #header-wrap .logo {
+       max-width: 75%; //  logo should be bigger.
+       margin-right: 0px;
+    }
 
-    #hero-section .hero-section-wrap.be-bg-cover{
-      height: 550px!important;
+    #hero-section .hero-section-wrap.be-bg-cover {
+      height: 250px!important;
+    }
+    body.home {
+      #hero-section .hero-section-wrap.be-bg-cover {
+        height: 550px!important;
+      }
     }
 
     #content.right-sidebar-page {
@@ -50,9 +59,4 @@
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) { // mobile 480
-}
-@media only screen and (max-width: 767px)  {
-  #header-wrap .logo {
-    max-width: 90%; // no nav, so logo should be bigger.
-  }
 }
