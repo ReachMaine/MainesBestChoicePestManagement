@@ -1,0 +1,225 @@
+/*
+Theme Name: MBCPM
+Description: Oshin Child Theme for Maine's Best Choice Pest management
+Author: Reach Maine
+Template: oshin
+Version: 1.2
+*/
+/* ----------- Colors ---------------------------------- */
+/* ----------- end Colors ----------- */
+/* ----------- Typography ------------------------------- */
+i.fa-pull-left {
+  float: left;
+  padding-right: 5px;
+}
+
+i.fa-pull-right {
+  float: right;
+  padding-left: 5px;
+}
+
+p:empty {
+  display: none;
+}
+
+/* ----------- end typography ----------- */
+.wpcf7-form textarea {
+  height: 120px;
+  background-color: white;
+  max-width: 97%;
+}
+.wpcf7-form input[type=text],
+.wpcf7-form input[type=password],
+.wpcf7-form input[type=datetime],
+.wpcf7-form input[type=datetime-local],
+.wpcf7-form input[type=date],
+.wpcf7-form input[type=month],
+.wpcf7-form input[type=time],
+.wpcf7-form input[type=week],
+.wpcf7-form input[type=number],
+.wpcf7-form input[type=email],
+.wpcf7-form input[type=url],
+.wpcf7-form input[type=search],
+.wpcf7-form input[type=tel],
+.wpcf7-form input[type=color] {
+  max-width: 100%;
+}
+.wpcf7-form input.cf7-med {
+  width: 200px;
+}
+.wpcf7-form input.cf7-small {
+  width: 80px;
+}
+.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
+  padding: 18px;
+  border: 0px;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.wpcf7-form label {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.wpcf7-form p {
+  margin-bottom: 5px;
+  clear: both;
+}
+.wpcf7-form label.cf7-required:after {
+  content: "*";
+  color: red;
+}
+.wpcf7-form .one-half, .wpcf7-form .one-third, .wpcf7-form .two-third {
+  position: relative;
+  padding-right: 2%;
+  padding-bottom: 5px;
+  float: left;
+}
+.wpcf7-form .one-half.last, .wpcf7-form .one-third-half.last, .wpcf7-form .two-third.last {
+  padding-right: 0px;
+  clear: right;
+}
+
+.wpcf7 .wpcf7-form .wpcf7-response-output.wpcf7-mail-sent-ok {
+  color: #FFF;
+  background-color: #2c6137;
+  font-weight: bold;
+}
+
+.wpcf7-form .wpcf7-form-control.wpcf7-submit,
+input[type=submit] {
+  border: 0px;
+  padding: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* standard Reach styling of Oshin */
+.title-module-wrap.page-title-module-custom {
+  padding: 10px 0px;
+}
+.title-module-wrap.page-title-module-custom h1.page-title-custom {
+  margin-bottom: 0px;
+}
+
+.left-sidebar-page,
+.right-sidebar-page,
+.no-sidebar-page .be-section-pad:first-child,
+.page-template-page-940-php #content,
+.no-sidebar-page #content-wrap,
+.portfolio-archives.no-sidebar-page #content-wrap {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.tatsu-module {
+  margin-bottom: 15px;
+}
+
+.page #comments {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.tatsu-column .tatsu-single-image img {
+  width: 100%;
+}
+
+.wpcf7-form .wpcf7-form-control.wpcf7-submit,
+input[type=submit] {
+  border: 0px;
+  padding: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* gravity forms styling */
+.gform_wrapper .gform_fields .gfield input,
+.gform_wrapper .gform_fields .gfield textarea {
+  background-color: #f8f6f4;
+  font-family: "Open Sans", Helvetica, Arial, Lucida, sans-serif;
+  border: 0px;
+}
+.gform_wrapper .gform_footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*** slidebar in oshine slidebar is above main content *** */
+/*  header stuff - here */
+.header-controls-right {
+  display: none;
+}
+
+/*** styling of content */
+#content.right-sidebar-page {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+body.single-page-version .single-page-nav-wrap {
+  display: none;
+}
+
+/** sidebar
+
+/** footer **/
+#reach-bottom-cta {
+  background-color: rgba(78, 114, 176, 0.22);
+}
+#reach-bottom-cta .widget {
+  margin-bottom: 0px;
+}
+
+#bottom-widgets {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#footer a.reach-logo {
+  color: white;
+}
+#footer .reach-logo:before {
+  content: url("images/reach-favicon.png");
+  padding-right: 4px;
+}
+
+/* *** keep this at the end *** */
+/* **** media **** */
+@media only screen and (max-width: 960px) {
+  #header #header-controls-right .mobile-nav-controller {
+    padding-top: 15px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #header-wrap .logo {
+    max-width: 75%;
+    margin-right: 0px;
+  }
+  #hero-section .hero-section-wrap.be-bg-cover {
+    height: 250px !important;
+  }
+  body.home #hero-section .hero-section-wrap.be-bg-cover {
+    height: 550px !important;
+  }
+  #content.right-sidebar-page {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .tatsu-row-wrap.tatsu-eq-cols .tatsu-column {
+    min-height: initial;
+  }
+  #right-sidebar, #left-sidebar {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}/*# sourceMappingURL=style.css.map */
