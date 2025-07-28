@@ -16,7 +16,7 @@
 			}
 		</style>
 	<?php }
-	add_action( 'login_enqueue_scripts', 'my_login_logo' );
+/*	add_action( 'login_enqueue_scripts', 'my_login_logo' ); */
 
 	/* put reach logo at bottom of login screen */
 	add_action( 'login_footer', 'reach_login_branding' );
